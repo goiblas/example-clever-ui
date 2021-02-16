@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/Card";
+import Button from "./components/Button";
+import Heading from "./components/Heading";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Card>
+      <Heading as="h1" size="4xl">
+        Header Level 1
+      </Heading>
+      <Heading as="h2" size="3xl">
+        Header Level 2
+      </Heading>
+      <Heading as="h3" size="2xl">
+        Header Level 3
+      </Heading>
+      <Heading as="h4" size="xl">
+        Header Level 4
+      </Heading>
+      <Heading as="h5" size="lg">
+        Header Level 5
+      </Heading>
+
+      <Button>Button styled</Button>
+    </Card>
   );
 }
 
