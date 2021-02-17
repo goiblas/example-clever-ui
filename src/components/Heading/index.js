@@ -1,3 +1,4 @@
+import styled from "@emotion/styled";
 import { createElement } from "react";
 import "./style.css";
 
