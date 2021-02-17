@@ -2,7 +2,6 @@ import Card from "./components/Card";
 import Button from "./components/Button";
 import Heading from "./components/Heading";
 
-// heading props as="h1" size="4xl"
 function App() {
   return (
     <Card>

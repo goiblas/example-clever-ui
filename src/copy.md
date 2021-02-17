@@ -20,3 +20,7 @@ border: 0;
 cursor: pointer;
 font-family: inherit;
 font-size: inherit;
+
+## heading
+
+props as="h1" size="4xl"
