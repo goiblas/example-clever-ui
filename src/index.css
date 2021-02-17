@@ -12,6 +12,14 @@ body {
   padding: 10vw 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 0 1rem;
+}
+
 :root {
   --color-primary-main: #254edb;
   --color-primary-dark: #102693;

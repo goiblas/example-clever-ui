@@ -1,8 +1,5 @@
-import { createElement } from "react";
-import "./style.css";
-
-const Heading = ({ size = "4xl", as = "h1", children, ...props }) => {
-  return createElement(as, { ...props, className: `text-${size}` }, children);
+const Heading = (props) => {
+  return <h1>{props.children}</h1>;
 };
 
 export default Heading;

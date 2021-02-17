@@ -1,0 +1,22 @@
+## Card
+
+padding: 4%;
+border-radius: 8px;
+max-width: 780px;
+width: 90%;
+border: 2px solid #ccc;
+margin: auto;
+
+## Button
+
+padding: 0 40px;
+display: inline-flex;
+place-items: center;
+height: 48px;
+border-radius: 4px;
+background-color: #298010;
+color: #fff;
+border: 0;
+cursor: pointer;
+font-family: inherit;
+font-size: inherit;

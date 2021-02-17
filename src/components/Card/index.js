@@ -1,8 +1,7 @@
 import cx from "classnames";
-import "./style.css";
 
 const Card = ({ className, children }) => {
-  return <div className={cx(className, "cle-card")}>{children}</div>;
+  return <div>{children}</div>;
 };
 
 export default Card;
